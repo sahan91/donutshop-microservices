@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports: 
+      - "127.0.0.1:15672:15672"
